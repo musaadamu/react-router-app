@@ -1,0 +1,41 @@
+/* General Styles for the Container */
+div {
+    max-width: 800px; /* Limits the width for better readability */
+    margin: 0 auto; /* Centers the div horizontally */
+    text-align: center; /* Centers the text inside the div */
+    padding: 2rem 1rem; /* Adds spacing around the content */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    font-family: 'Arial', sans-serif; /* Sets a clean, modern font */
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 2.5rem; /* Larger font for emphasis */
+    color: #333; /* Darker color for readability */
+    margin-bottom: 1rem; /* Adds space below the heading */
+  }
+  
+  h3 {
+    font-size: 1.2rem; /* Slightly smaller font size for the subheading */
+    color: #666; /* Lighter color for the subheading */
+    line-height: 1.6; /* Improves readability */
+    margin-bottom: 2rem; /* Adds more space below the subheading */
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #ff6347; /* Tomato color for the button */
+    color: white; /* White text color */
+    border: none; /* Removes default button border */
+    padding: 0.75rem 1.5rem; /* Adds padding for button size */
+    font-size: 1rem; /* Sets font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 5px; /* Adds rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #e5533d; /* Darker shade on hover */
+  }
+  
